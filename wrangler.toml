@@ -1,6 +1,6 @@
 name = "notion-blueprint"
 type = "javascript"
-account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+account_id = "2de02aea827df94a577e6287d17b9b46"
 workers_dev = true
 compatibility_date = "2025-05-14"
 
