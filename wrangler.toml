@@ -1,6 +1,6 @@
-
 name = "shopify-blueprint"
 compatibility_date = "2025-05-16"
+main = ""
 
 [site]
 bucket = "./public"
