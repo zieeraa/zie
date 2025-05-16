@@ -2,6 +2,6 @@
   "name": "static-site-worker",
   "type": "module",
   "dependencies": {
-    "@cloudflare/kv-asset-handler": "^0.2.3"
+    "@cloudflare/kv-asset-handler": "0.1.4"
   }
 }
