@@ -6,7 +6,29 @@ async function handleRequest(request) {
   const url = new URL(request.url)
   const path = url.pathname
 
-  // Isi HTML dari tiap halaman (dari template Notion)
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shopify Business Blueprint</title>
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Shopify Business Blueprint</h1>
+    <p>Your step-by-step Shopify store guide.</p>
+  </header>
+  <main>
+    <section>
+      <h2>Welcome</h2>
+      <p>This is a static website based on the Shopify Business Blueprint template.</p>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
   const pages = {
     "/": `
 <!DOCTYPE html>
